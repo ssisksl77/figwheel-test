@@ -1,0 +1,6 @@
+Reagent
+https://github.com/reagent-project/reagent-cookbook/tree/master/basics/basic-component
+컴포넌트
+React.createClass()를 호출 할 때 객체 스펙을 제공해야 하는데 *render*메소드를 구현해놔야 한다. 옵션으로 lifecycle메소드할 수도 있다.
+React.js에서는 render Reagent에서는 :reagent-render 다.
+

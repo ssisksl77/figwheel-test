@@ -1,0 +1,39 @@
+
+[0mCompiling "resources/public/main.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/main.js" in 1.336 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/goog/deps.js
+notifying browser that file changed:  resources/public/js/out/cljs_deps.js
+notifying browser that file changed:  resources\public\js\out\figwheel_project\core.js
+[0mCompiling "resources/public/main.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/main.js" in 0.811 seconds.[0m
+notifying browser that file changed:  resources\public\js\out\figwheel_project\core.js
+[0mCompiling "resources/public/main.js" from ["src"]...[0m
+[36m----  Compiler Warning on   resources/public/js/out/reagent/impl/component.cljs   line:272  column:8  ----[0m
+
+  [1mUse of undeclared Var reagent.impl.component/create-react-class[0m
+
+  [36m268[0m  [36m(defn create-class [body][0m
+  [36m269[0m  [36m  {:pre [(map? body)]}[0m
+  [36m270[0m  [36m  (->> body[0m
+  [36m271[0m  [36m       cljsify[0m
+  [33m272[0m  [1m       create-react-class))[0m
+  [0m   [0m  [33m       ^--- Use of undeclared Var reagent.impl.component/create-react-class[0m
+  [36m273[0m  [36m[0m
+  [36m274[0m  [36m(defn fiber-component-path [fiber][0m
+  [36m275[0m  [36m  (let [name (some-> fiber[0m
+  [36m276[0m  [36m                     ($ :type)[0m
+  [36m277[0m  [36m                     ($ :displayName))[0m
+
+[36m----  Compiler Warning : Please see resources/public/js/out/reagent/impl/component.cljs  ----[0m
+[32mSuccessfully compiled "resources/public/main.js" in 9.816 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/goog/deps.js
+notifying browser that file changed:  resources/public/js/out/cljs_deps.js
+notifying browser that file changed:  resources\public\js\out\figwheel_project\core.js
+[0mCompiling "resources/public/main.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/main.js" in 2.408 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/goog/deps.js
+notifying browser that file changed:  resources/public/js/out/cljs_deps.js
+notifying browser that file changed:  resources\public\js\out\figwheel_project\core.js
+[0mCompiling "resources/public/main.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/main.js" in 0.762 seconds.[0m
+notifying browser that file changed:  resources\public\js\out\figwheel_project\core.js
